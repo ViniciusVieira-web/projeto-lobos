@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Game';
+    src: url(../Game\ of\ Thrones.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    height: 100vh;
+    
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+picture > img{
+    width: 96vw;
+    
+}
+
+header> h1{
+    font-family: 'Game', cursive;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+menu{
+    background-color: gray;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.527);
+}
+
+menu a{
+    text-decoration: none;
+    font-family: 'Game';
+    font-size: 0.7em;
+    color: black;
+    padding: 5px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.267);
+}
+
+menu a:hover{
+    color: white;
+}
+
+main{
+    width: 96.6vw;
+    background-color: gray;
+    margin: auto;
+}
+
+article > h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.4em;
+    line-height: 1.3em;
+    padding-bottom: 10px;
+}
+
+article p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
+    font-size: 1.1;
+}
+
+footer{
+    margin-top: 5px;
+    background-color: gray;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: black;
+}
