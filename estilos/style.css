@@ -24,7 +24,7 @@ picture{
 }
 
 picture > img{
-    width: 96vw;
+    width: 99vw;
     
 }
 
@@ -43,7 +43,7 @@ menu{
 menu a{
     text-decoration: none;
     font-family: 'Game';
-    font-size: 0.7em;
+    font-size: 0.6em;
     color: black;
     padding: 5px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.267);
@@ -54,7 +54,7 @@ menu a:hover{
 }
 
 main{
-    width: 96.6vw;
+    width: 99vw;
     background-color: gray;
     margin: auto;
 }
