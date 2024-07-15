@@ -14,7 +14,6 @@
 
 body, html{
     height: 100vh;
-    
 }
 
 picture{
@@ -24,7 +23,7 @@ picture{
 }
 
 picture > img{
-    width: 98vw;
+    width: 96vw;
     
 }
 
@@ -34,6 +33,7 @@ header> h1{
     background-color: gray;
     color: black;
     padding: 15px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.575);
 }
 menu{
     background-color: darkgray;
@@ -54,7 +54,6 @@ menu a:hover{
 }
 
 main{
-    width: 98vw;
     background-color: darkgray;
     margin: auto;
 }
@@ -72,10 +71,11 @@ article p{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.3em;
     font-size: 1.1;
+    padding: 5px;
+    text-align: justify;
 }
 
 footer{
-    width: 98vw;
     background-color: rgba(0, 0, 0, 0.651);
     color: white;
 }

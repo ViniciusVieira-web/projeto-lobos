@@ -1,2 +1,69 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 768px) and (max-width: 1200px){
+
+    
+
+    menu{
+        height: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid rgba(0, 0, 0, 0.26);
+    }
+
+    menu a{
+        font-size: 0.7em;
+    }
+
+    picture{
+        background-color: white;
+    }
+
+    picture img{
+        max-width: 500px;
+    }
+
+    main{
+        max-width: 90vw; 
+        border-radius: 3px;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+
+    menu{
+        height: 30px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid rgba(0, 0, 0, 0.26);
+    }
+
+    menu a{
+        font-size: 0.7em;
+    }
+
+    main{
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        margin: 10px;
+    }
+
+    main picture{
+        max-width: 550px;
+    }
+
+    main picture img{
+        width: 650px;
+        height: 480px;
+    }
+
+    main article{
+        background-color: lightgray;
+        max-width: 500px;
+    }
+
+}
