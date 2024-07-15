@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Game';
+    src: url(../Game\ of\ Thrones.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    height: 100vh;
+}
+
+header{
+    height: 40px;
+    background-color: gray;
+    margin-bottom: 20px;
+}
+header a{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.521);
+}
+
+header a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+main h1{
+    font-family: 'Game';
+    font-size: 1.6em;
+    color: #add8e6;
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    text-align: center;
+}
+
+main picture{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+main img{
+    width: 90vw;
+    
+}
+
+main article{
+    width: 99vw;
+    background-color: lightgray;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.342);
+}
+
+main p {
+    padding: 5px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.1em;
+    color: rgba(0, 0, 0, 0.918);
+    text-align: justify;
+}
