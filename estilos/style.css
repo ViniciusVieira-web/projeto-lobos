@@ -16,6 +16,10 @@ body, html{
     height: 100vh;
 }
 
+body{
+    background-image: url(../Imagens/fundo.png);
+}
+
 picture{
     display: flex;
     justify-content: center;
@@ -24,7 +28,6 @@ picture{
 
 picture > img{
     width: 96vw;
-    
 }
 
 header> h1{
@@ -54,8 +57,11 @@ menu a:hover{
 }
 
 main{
-    background-color: darkgray;
     margin: auto;
+}
+
+main article{
+    background-color: darkgray;
 }
 
 article > h2{
@@ -70,13 +76,12 @@ article > h2{
 article p{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.3em;
-    font-size: 1.1;
     padding: 5px;
     text-align: justify;
 }
 
 footer{
-    background-color: rgba(0, 0, 0, 0.651);
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 
