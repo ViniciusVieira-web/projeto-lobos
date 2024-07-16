@@ -2,14 +2,17 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px){
 
-    
+    span#burguer{
+        display: none;
+    }
 
     menu{
-        height: 30px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        border: 1px solid rgba(0, 0, 0, 0.26);
+        display: block;
+        
+    }
+
+    menu > ul > li{
+        display: inline-block;
     }
 
     menu a{
@@ -33,12 +36,16 @@
 
 @media screen and (min-width: 1200px){
 
+    span#burguer{
+        display: none;
+    }
+
     menu{
-        height: 30px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        border: 1px solid rgba(0, 0, 0, 0.26);
+        display: block;
+    }
+
+    menu > ul > li{
+        display: inline-block;
     }
 
     menu a{

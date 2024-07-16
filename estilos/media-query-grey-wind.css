@@ -1,6 +1,11 @@
 @charset "UTF-8";
 
 @media screen and (min-width:768px) and (max-width:1200px){
+
+    header{
+        height: 70px;
+    }
+
     main img{
         width: 600px;
         height: 400px;
@@ -13,6 +18,10 @@
 }
 
 @media screen and (min-width:1200px){
+
+    header{
+        height: 70px;
+    }
 
     main img{
         width: 700px;
